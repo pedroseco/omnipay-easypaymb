@@ -1,16 +1,15 @@
 {
-    "name": "Getcodept/omnipay-easypaymb",
+    "name": "pedroseco/omnipay-easypaymb",
     "description": "Unofficial Easypay driver for the Omnipay PHP payment processing library",
-    "homepage": "https://www.easypay.pt",
+    "homepage": "getcode.pt",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Getcode.pt",
-            "email": "suporte@getcode.pt"
-        }
-    ],
+    "authors": [{
+        "name": "Pedro Seco",
+        "company": "Getcode.pt",
+        "email": "pedroseco@getcode.pt"
+    }],
     "autoload": {
-        "psr-4": { "Omnipay\\EasypayMb\\" : "src/" }
+        "psr-4": { "Omnipay\\EasypayMb\\": "src/" }
     },
     "require": {
         "omnipay/common": "~2.0"
