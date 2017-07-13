@@ -1,11 +1,11 @@
 {
     "name": "pedroseco/omnipay-easypaymb",
     "description": "Unofficial Easypay driver for the Omnipay PHP payment processing library",
-    "homepage": "getcode.pt",
+    "homepage": "http://getcode.pt",
     "license": "MIT",
     "authors": [{
         "name": "Pedro Seco",
-        "company": "Getcode.pt",
+        "company": "http://getcode.pt",
         "email": "pedroseco@getcode.pt"
     }],
     "autoload": {
