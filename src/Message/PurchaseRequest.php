@@ -246,8 +246,7 @@ class PurchaseRequest extends AbstractRequest
 		$this->setUri($options);
 
 		$demo =  $this->_xmlToArray($this->_get_contents($this->_get_uri($this->getRequestReference())));
-		print_r($demo);
-		die;
+	
 		return json_encode(array($options));
 
 	}
