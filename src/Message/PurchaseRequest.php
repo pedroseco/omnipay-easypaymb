@@ -37,11 +37,8 @@ class PurchaseRequest extends AbstractRequest
         return $this->setParameter('test_server',$value);
     }
 
-    public function getUser()
+   	public function getUser()
     {
-        return $this->getParameter('user');
-    }
-
     public function setUser($value)
     {
         return $this->setParameter('user', $value);
@@ -136,7 +133,6 @@ class PurchaseRequest extends AbstractRequest
     {
         return $this->setParameter('observation', $value);
     }
-
 
     public function getOname()
     {
