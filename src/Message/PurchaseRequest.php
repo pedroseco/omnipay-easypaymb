@@ -39,6 +39,9 @@ class PurchaseRequest extends AbstractRequest
 
    	public function getUser()
     {
+		return $this->getParameter('user');
+	}
+
     public function setUser($value)
     {
         return $this->setParameter('user', $value);
