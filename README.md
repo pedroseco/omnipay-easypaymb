@@ -1,11 +1,6 @@
 ## Install
 
-_Adicionar no composer.json_
+See Omnipay instructions at `https://github.com/thephpleague/omnipay`
 
-    
-
-    "autoload": {
-        "psr-4": {
-            "Omnipay\\EasypayMb\\" : "plugins/getcodept/omnipay-easypaymb/src/"
-        }
-    }
+*Attention* 
+This plugin is not production ready and only uses the "MB" method as accepted payments from Easypay.pt provider.
