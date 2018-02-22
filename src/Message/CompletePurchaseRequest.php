@@ -1,6 +1,6 @@
 <?php
 
-namespace Omnipay\Ifthenpay\Message;
+namespace Omnipay\EasypayMb\Message;
 
 use Omnipay\Common\Exception\InvalidResponseException;
 
