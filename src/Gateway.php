@@ -45,6 +45,8 @@ class Gateway extends AbstractGateway
             'tkey'=>'',
             'code'=>null,
             'scode'=>null,
+            'o_max_date'=>date('Y-m-d',strtotime('+30 days')),
+            'ep_partner'=>'',
             '_log'=> array()
         );
     }
@@ -82,6 +84,26 @@ class Gateway extends AbstractGateway
     public function getUser()
     {
         return $this->getParameter('user');
+    }
+
+    public function getOEpPartner()
+    {
+        return $this->getParameter('ep_partner');
+    }
+
+    public function setOEpPartner($value)
+    {
+        return $this->setParameter('ep_partner',$value);
+    }
+
+    public function getOMaxDate()
+    {
+        return $this->getParameter('o_max_date');
+    }
+
+    public function setOMaxDate($value)
+    {
+        return $this->setParameter('o_max_date',$value);
     }
 
     public function setUser($value)
