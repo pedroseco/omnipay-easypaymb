@@ -117,6 +117,28 @@ class PurchaseRequest extends AbstractRequest
         return $this->setParameter('tkey', $value);
     }
 
+
+	public function getOEpPartner()
+    {
+        return $this->getParameter('ep_partner');
+    }
+
+    public function setOEpPartner($value)
+    {
+        return $this->setParameter('ep_partner',$value);
+    }
+
+    public function getOMaxDate()
+    {
+        return $this->getParameter('o_max_date');
+    }
+
+    public function setOMaxDate($value)
+    {
+        return $this->setParameter('o_max_date',$value);
+	}
+	
+
     public function getCode()
     {
         return $this->getParameter('code');
@@ -224,7 +246,9 @@ class PurchaseRequest extends AbstractRequest
 			 'o_description'=> $parameters['description'],
 			 'o_obs'=> $parameters['observation'],
 			 'o_mobile'=> $parameters['mobile'],
-			 'o_email'=> $parameters['email']
+			 'o_email'=> $parameters['email'],
+			 'o_max_date'=> $parameters['o_max_date'],
+			 'ep_partner'=> $parameters['ep_partner']
 		 );
 
 
