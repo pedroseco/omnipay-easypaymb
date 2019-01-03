@@ -86,12 +86,12 @@ class Gateway extends AbstractGateway
         return $this->getParameter('user');
     }
 
-    public function getOEpPartner()
+    public function getEpPartner()
     {
         return $this->getParameter('ep_partner');
     }
 
-    public function setOEpPartner($value)
+    public function setEpPartner($value)
     {
         return $this->setParameter('ep_partner',$value);
     }
